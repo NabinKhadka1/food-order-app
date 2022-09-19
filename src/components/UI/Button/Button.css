@@ -1,0 +1,17 @@
+.btn-close {
+  color: rgb(113, 19, 19);
+  outline: 1px solid rgb(113, 19, 19);
+}
+.btn-close:hover {
+  background-color: rgb(113, 19, 19);
+  color: #fff;
+}
+.btn-order {
+  background-color: rgb(113, 19, 19);
+  color: #fff;
+}
+.btn-order:hover {
+    background-color: rgb(197, 49, 49);
+    color: #fff;
+  }
+  

@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  z-index: 1;
+  background-color: #262526;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgb(113, 19, 19);
+}
+.navbar__brand {
+  color: white;
+}
+
+.hero {
+  background-image: url("../UI/meals.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 0% 100%);
+}

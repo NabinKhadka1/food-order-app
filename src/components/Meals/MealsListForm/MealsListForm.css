@@ -1,0 +1,18 @@
+.meals__quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.meals__quantity > button {
+  background: rgb(113, 19, 19);
+  padding: 6px 30px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.meals__quantity > button:hover {
+  background: #c94c4c;
+}

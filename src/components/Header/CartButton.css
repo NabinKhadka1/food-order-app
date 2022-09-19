@@ -1,0 +1,41 @@
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8px;
+  padding: 5px 20px;
+  background-color: #844040;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.cart__image {
+  width: 27px;
+  height: 27px;
+}
+.cart__order {
+  background: rgb(113, 19, 19);
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+.bump {
+  animation: bump 300s ease-out;
+}
+@keyframes bump {
+  0% {
+    transform: scale(1.15);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}

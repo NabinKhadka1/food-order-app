@@ -1,0 +1,24 @@
+.meals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.meals__info {
+  max-width: 30rem;
+  width: 90%;
+  background-color: #323132;
+  color: white;
+  margin-top: -6rem;
+  position: absolute;
+  z-index: 100;
+  padding: 10px 24px;
+  border-radius: 10px;
+}
+.meals__info > h2 {
+  text-align: center;
+  font-size: 25px;
+  margin: 10px;
+}
+.meals__info > p {
+  margin-bottom: 10px;
+}

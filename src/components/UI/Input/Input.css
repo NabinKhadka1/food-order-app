@@ -1,0 +1,7 @@
+.meals__amount {
+  display: flex;
+  gap: 10px;
+}
+.meals__amount > input {
+  width: 40px;
+}

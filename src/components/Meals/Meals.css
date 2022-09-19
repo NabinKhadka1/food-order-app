@@ -1,0 +1,17 @@
+.meals__items {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.meals__items:last-child {
+  border-bottom: none;
+}
+.meals__item > p {
+  margin: 10px 0;
+  font-style: italic;
+}
+.meals__item > span {
+  color: #9d643c;
+  font-weight: bold;
+}
